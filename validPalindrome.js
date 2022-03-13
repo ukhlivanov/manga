@@ -14,14 +14,6 @@ var validPalindrome = function(s, left = 0, right = s.length - 1, err = 0) {
     return true;
 };
 
-console.log(validPalindrome("cdbeeeabddddbaeedebdc")) //true
-console.log(validPalindrome("cdb")) //false
-
-console.log(validPalindrome("aba")) //true
-console.log(validPalindrome("bddb")) //true
-
-console.log(validPalindrome("abca")) //true
-console.log(validPalindrome("aguokepatgbnvfqmgmlcupuufxoohdfpgjdmysgvhmvffcnqxjjxqncffvmhvgsymdjgpfdhooxfuupuculmgmqfvnbgtapekouga")) //true
 
 
 
