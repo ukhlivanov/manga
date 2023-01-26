@@ -44,14 +44,13 @@ function helper(i, j, matrix, memo){
 В функии helper мы рассматриваем только те элементы которые не равны нулю (строки 17, 23, 29, 35), те элементы которые изначально 
 равны нулю мы пропускаем чтобы они не попали в memo. 
 
-Initail matrix
-[
- [1,1,1],
- [1,0,0],
- [1,1,1]
- ]
+Initial matrix
+[1,1,1]
+[1,0,0]
+[1,1,1]
+ 
 
-1 iteration
+iteration 1
 i = 1 j = 1
 
 matrix 
@@ -68,7 +67,7 @@ memo
   '1,0': true 
  }
 
-2 iteration
+iteration 2
 i = 1 j = 2
 
 matrix 
@@ -86,6 +85,4 @@ memo
   '0,2': true,
   '2,2': true
 }
-
-
 */
